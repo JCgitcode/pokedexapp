@@ -1,0 +1,72 @@
+.header__card {
+    text-align: center;
+    height: 9vw;
+    margin-bottom: 2.8vw;
+    filter: brightness(150%);
+}
+
+.article__pokecard {
+    border-radius: 0.7vw;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.article__pokecard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4)
+  }
+
+.h2__name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: brightness(60%);
+    font-size: 1.8vw;
+    text-align: center;
+    text-transform: capitalize
+}
+
+.img__pokemon {
+    width: 12vw;
+    filter: brightness(70%);
+}
+
+.ul__type {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    gap: 1vw;
+}
+
+.li__type {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    filter: brightness(40%);
+}
+
+.ul__stat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.li__stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__details hr {
+    filter: brightness(120%);
+}
+
+.span__title__stat {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    text-transform: capitalize;
+    filter: brightness(40%);
+}
+
+.span__content__stat {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3vw;
+    font-weight: bold;
+    filter: brightness(80%);
+    margin-bottom: 0.8vw;
+}

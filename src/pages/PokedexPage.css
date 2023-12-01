@@ -1,0 +1,71 @@
+.container {
+    padding-bottom: 80px;
+}
+
+.img__header {
+    width: 100%;
+}
+
+.p__poke {
+    margin-left: 5vw;
+}
+
+.section__header {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    margin: 30px 60px;
+}
+
+.form__search {
+    display: flex;
+    height: 3vw;
+    width: 40%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button__search {
+    background-color: rgb(251, 44, 33);
+    color: white;
+    font-size: 1.5vw;
+    width: 15vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0;
+    border-radius: 0 0.5vw 0.5vw 0;
+}
+
+.input__search {
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    width: 50vw;
+    border: 0;
+    border-radius: 0.5vw 0 0 0.5vw;
+    background-color: rgb(245, 240, 240);
+}
+
+.buttonPoke__mode {
+    background-color: rgb(255, 30, 0);
+    color: white;
+    padding: 2px 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.buttonPoke__mode:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3)
+  }
+
+.section__pokecard {
+    margin: 7vw 5vw 0 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4vw;
+  }
+
+  .span__trainer {
+    font-size: 1.8vw;
+    color: rgb(251, 44, 33);
+    font-weight: bold;
+  }
